@@ -4,10 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="519886aa-d2f1-4a0d-85c9-4e421b57078a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="519886aa-d2f1-4a0d-85c9-4e421b57078a" name="Changes" comment="Create gitignore and read me files.">
+      <change afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Frank Affatigato.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "FrankAffatigato"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/FrankAffatigato/Project-Showcase-App.git",
+    "accountId": "808afe59-3828-4b54-ab92-874381cdf1b0"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -29,9 +62,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/ifran/OneDrive/Desktop/Projects/Python Projects/Project Showcase App/images",
+    "settings.editor.selected.configurable": "editor.preferences.appearance"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ifran\OneDrive\Desktop\Projects\Python Projects\Project Showcase App\images" />
+      <recent name="C:\Users\ifran\OneDrive\Desktop\Projects\Python Projects\Project Showcase App" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -48,6 +89,15 @@
       <option name="presentableId" value="Default" />
       <updated>1744252715923</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create gitignore and read me files.">
+      <option name="closed" value="true" />
+      <created>1744254311321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744254311321</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -60,5 +110,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create gitignore and read me files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create gitignore and read me files." />
   </component>
 </project>
