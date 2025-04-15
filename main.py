@@ -1,12 +1,14 @@
 # Main python file
 import streamlit as st
+import pandas as pd
 
 st.set_page_config(layout="wide")
 
-col1, col2, col3 = st.columns([1, 5.5, 2])
+col1, col2, empty_col1 = st.columns([1.5, 4.5, 2])
 
 with col1:
-    st.image("images/Frank Affatigato.png", width=250)
+    st.title("")
+    st.image("images/Frank Affatigato.png", width=350)
 
 with col2:
     st.title("Frank Affatigato")
@@ -21,3 +23,21 @@ with col2:
     st.info(content)
 
 st.write("Below you can find some of the apps I have built in Python. Feel free to contact me!")
+
+df = pd.read_csv("data.csv", sep=";")
+
+col3, empty_col2, col4 = st.columns([2, 0.5, 2])
+
+with col3:
+    for index, row in df[0:10].iterrows():
+        st.header(row["title"])
+        st.image(f"images/{row['image']}", width=550)
+        st.write(row["description"])
+        st.write(f"[Source Code]({row['url']})")
+
+with col4:
+    for index, row in df[10:].iterrows():
+        st.header(row["title"])
+        st.image(f"images/{row['image']}", width=550)
+        st.write(row["description"])
+        st.write(f"[Source Code]({row['url']})")
