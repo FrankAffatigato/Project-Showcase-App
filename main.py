@@ -28,6 +28,7 @@ df = pd.read_csv("data.csv", sep=";")
 
 col3, empty_col2, col4 = st.columns([2, 0.5, 2])
 
+# Create first column for projects
 with col3:
     for index, row in df[0:10].iterrows():
         st.header(row["title"])
@@ -35,6 +36,7 @@ with col3:
         st.write(row["description"])
         st.write(f"[Source Code]({row['url']})")
 
+# Create second column for projects
 with col4:
     for index, row in df[10:].iterrows():
         st.header(row["title"])
